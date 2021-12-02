@@ -1,1 +1,1 @@
-# Tablet view for the dota website.
+# Final view for the dota website.
