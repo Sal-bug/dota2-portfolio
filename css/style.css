@@ -145,7 +145,8 @@ h1 {
 }
 
 .content img {
-  height: 300px;
+  height: 60vw;
+  width: 100vw;
   mix-blend-mode: overlay;
 }
 
@@ -248,6 +249,10 @@ label {
 
 input {
   display: none;
+}
+
+:checked + .card {
+  transform: rotateX(180deg);
 }
 
 /* Define the keyboard focus */
@@ -360,8 +365,8 @@ input {
 
 .competition h2 {
   text-align: center;
-  font-size: 30px;
-  padding: 5px;
+  font-size: 27px;
+  padding: 10px 5px 10px 5px;
 }
 
 #international img {
@@ -381,7 +386,7 @@ footer p{
 /* End mobile view */
 
 /* Tablet View */
-@media screen and (min-width: 700px){
+@media screen and (min-width: 800px){
   body {
     font-size: 23px;
   }
